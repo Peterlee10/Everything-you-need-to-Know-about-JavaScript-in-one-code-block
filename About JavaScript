@@ -1,0 +1,78 @@
+// **Variables and Data Types**
+let Variables; // declare a variable
+variable = 'value'; // assign a value
+const constants = 'constant value'; // declare a document
+
+
+// Data Types:
+// Numbers: 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, e.t.c
+// String: 'hello', "hello" `hello`
+// Boolean: true, false
+// Null: null
+// Undefined: undefined
+// Object: { key: value }
+// Array: [1, 2, 3]
+
+
+// **Operators**
+
+// Arithmetic Operators:
+2 + 2; // addition
+2 - 2; // subtraction
+2 * 2; // Multiplication
+2 / 2; // Division
+2 % 2; // modulus
+2 ** 2; //exponentiation
+
+// Comparison Operators:
+2 == 2; // equal
+2 === 2; // identical
+2 ! = 2; // not equal
+2 ! == 2; // not identical
+2 > 2; // greater than
+2 < 2; // less than
+2 >= 2; // greater than or equal
+2 <= 2; // less than or equal
+
+// Logical Operators:
+true && true; // and
+true || true; // or
+!true; // not
+
+// **Control Structures**
+
+// Conditional Statements:
+if (true) {console.log('true'); }
+if (true) {console.log('true'); } else {console.log('false'); }
+
+//Loops:
+for (let i = 0; i < 5; i++) {console.loh (i); }
+while (true) {console.log('true'); } while (true);
+
+// **Functions**
+
+// **Arrays**
+let arr = [1, 2, 3];
+arr.push(4); // add element to end
+arr.pop(); // remove element from end
+arr.shift(); //remove element from start
+arr.unshift(0); // add element to start
+arr.includes(2); // check if element exists
+arr.index0f(2); // get index of element
+arr.forEach(element => console.log(element));
+
+// **Objects**
+let obj = {key: 'value' };
+obj.key; // access property
+obj['key']; // access property
+obj.key = 'new value'; // update property
+delete obj.key; // delete property
+
+// **DOM and Events**
+document.getElementById('id'); // get element by id
+document,querySelector('selector'); // get element by selector
+element.addEventListener('event', function() { console.log('event triggered'); });
+
+// **Async and Promises**
+setTimeout(function() {console.log('async code'); }, 2000);
+fetch('url').then(response => response.json()).then(data => console.log(data));
